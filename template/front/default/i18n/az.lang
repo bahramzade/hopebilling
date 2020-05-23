@@ -24,9 +24,12 @@
         "Регистрация": "Qeydiyyat",
         "Билинг панель": "Billing panel",
         "Биллинг панель": "Billing panel",
-        "3-20 символов, которыми могут быть буквы и цифры, первый символ обязательно буква": "",
-        "Строчные и прописные латинские буквы, цифры, спецсимволы. Минимум 4 символов.": "",
-        "Введите номер телефона в международном формате (например +380921235478)": ""
+        "3-20 символов, которыми могут быть буквы и цифры, первый символ обязательно буква": "3-20 simvol, hansılarla ki, hərflər və rəqəmlər ola bilərlər, birinci simvol mütləq hərf",
+        "Строчные и прописные латинские буквы, цифры, спецсимволы. Минимум 4 символов.": "Sətri və böyük latın hərfləri, rəqəmlər, xüsusi simvollar. Minimum 4 simvol.",
+        "Введите номер телефона в международном формате (например +380921235478)": "Telefon nömrəsini daxil edin beynəlxalq formatda (məsələn 994705695696)",
+        "3-20 символов, которыми могут быть только маленькие буквы и цифры, первый символ обязательно буква": "3-20 simvol, hansılarla ki, yalnız kiçik hərflər və rəqəmlər ola bilərlər, birinci simvol mütləq hərf",
+        "Введите номер телефона в международном формате (например +38(092)123-54-78)": "Beynəlxalq formatda (məsələn +994 (050) 555-11-22) telefon nömrəsini daxil edin",
+        "Введите число больше нуля": "Daha çox sıfır sayı daxil edin"
     },
     "views\/service\/order\/list.php": {
         "Дата": "Tarix",
@@ -40,7 +43,10 @@
         "Посмотреть детали": "Detallara baxmaq",
         "Удалить заказ": "Sifarişi silmək",
         "Результаты не найдены.": "Nəticələr tapılmamışdır.",
-        "Активный": "Aktiv"
+        "Активный": "Aktiv",
+        "Продлить": "Uzatmaq",
+        "Информация о заказе": "Sifariş haqqında məlumat",
+        "Вы уверенны что хотите удалить заказ ?": "Siz arxayınsınız ki, sifarişi silmək istəyirsiniz?"
     },
     "views\/bill\/list.php": {
         "Дата": "Tarix",
@@ -67,7 +73,7 @@
         "Оплатить": "Ödəmək",
         "Отменить": "Ləğv etmək",
         "Счета по заказу №%id": "Sifariş №%id üzrə hesablar",
-        "VPS": ""
+        "VPS": "VPS"
     },
     "views\/hosting\/order\/list.php": {
         "Дата": "Tarix",
@@ -87,8 +93,8 @@
         "Отключен": "Söndürülüb",
         "Удалить заказ": "Sifarişi silmək",
         "Результаты не найдены.": "Nəticələr tapılmamışdır.",
-        "{%period|день|дня|дней}": "",
-        "Вы уверены что хотите удалить заказ ?": ""
+        "{%period|день|дня|дней}": "{ %period|gün|gün|günlər}",
+        "Вы уверены что хотите удалить заказ ?": "Siz arxayınsınız ki, sifarişi silmək istəyirsiniz?"
     },
     "views\/domain\/order\/list.php": {
         "Дата": "Tarix",
@@ -135,7 +141,9 @@
         "месяц": "ay",
         "месяца": "ay",
         "месяцев": "ay",
-        "Сформировать заказ": "Sifariş ver"
+        "Сформировать заказ": "Sifariş ver",
+        "Использовать промокод": "Promokod istifadə etmək",
+        "Промокод": "Promokod"
     },
     "views\/setting.php": {
         "Основные": "Əsas",
@@ -234,7 +242,7 @@
         "Средний": "Orta",
         "В обработке": "Emalda",
         "Результаты не найдены.": "Nəticələr tapılmamışdır.",
-        "Создать обращение в службу поддержки": ""
+        "Создать обращение в службу поддержки": "Dəstək xidmətinə müraciət yaratmaq"
     },
     "views\/support\/new_ticket.php": {
         "Тема": "Mövzu",
@@ -315,7 +323,9 @@
         "Счета № %bills успешно оплачены!": "№ %bills hesabları müvəffəqiyyətlə ödənmişdir!",
         "Не достаточно средств на балансе.": "Balansda vəsait kifayət deyil.",
         "Оплата произведена успешно!": "Ödəniş müvəffəqiyyətlə edilmişdir!",
-        "К сожалению оплата не была произведена.": ""
+        "К сожалению оплата не была произведена.": "Təəssüf ki, ödəniş ugursuzdur.",
+        "К сожалению, счет %bill не был оплачен.": "%bill ödəniş uğursuzdur",
+        "Пополните баланс или выберите %0 другой способ оплаты %1": "Balansı doldurun və ya ödənişlər %1 %0 başqa üsulunu seçin"
     },
     "views\/login.php": {
         "Вход": "Giriş",
@@ -330,7 +340,7 @@
         "Регистрация ?": "Qeydiyyat ?",
         "Регистрация": "Qeydiyyat",
         "Регистрация успешно завершена": "Qeydiyyat uğurla başa çatıb",
-        "Toggle navigation": ""
+        "Toggle navigation": "Keçid naviqasiya"
     },
     "views\/reg.php": {
         "Подтверждение телефона": "Telefonun təsdiq etməsi ",
@@ -344,8 +354,9 @@
         "E-mail": "E-poçt",
         "ФИО": "SAA",
         "Телефон": "Telefon",
-        "Пароль": "Parol",
-        "Страница входа": "Giriş səhifəsi"
+        "Пароль": "Şifrə ",
+        "Страница входа": "Giriş səhifəsi",
+        "Пароль (повторно)": "Şifrə (təkrar)"
     },
     "views\/layout.php": {
         "Toggle navigation": "Toggle navigation",
@@ -376,7 +387,9 @@
         "Сотрудники": "Əməkdaşlar",
         "Страницы": "Səhifələr",
         "Выйти": "Çıxmaq",
-        "VPS": ""
+        "VPS": "VPS",
+        "Новоее сообщение": "Yeni mesaj",
+        "Тикет": "Tiket"
     },
     "views\/reminder.php": {
         "Восстановление пароля": "Şifrənin bərpasi",
@@ -414,7 +427,12 @@
         "Сформировать заказ": "Sifariş ver"
     },
     "views\/service\/order\/show.php": {
-        "Нет дополнительной информации": "",
-        "Закрыть": ""
+        "Нет дополнительной информации": "Əlavə məlumat yoxdur",
+        "Закрыть": "Bağla"
+    },
+    "views\/service\/order\/info.php": {
+        "Информация о заказе": "Sifariş haqqında məlumat",
+        "Нет дополнительной информации": "Əlavə məlumat yoxdur",
+        "Закрыть": "Bağla"
     }
 }
